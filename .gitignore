@@ -1,0 +1,29 @@
+# Python virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Compressed files created by the tool
+*.cmp
+
+# Sample and temporary files
+sample.txt
+sample.bin
+sample_*.cmp
+decompressed_*
+test_temp.txt
+
+# System files
+.DS_Store
+Thumbs.db 
