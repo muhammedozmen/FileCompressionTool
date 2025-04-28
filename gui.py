@@ -296,7 +296,9 @@ class FileCompressionApp(QMainWindow):
         self.process_button.setEnabled(True)
         self.compress_radio.setEnabled(True)
         self.decompress_radio.setEnabled(True)
-        self.update_ui_for_operation()
+        self.algorithm_combo.setEnabled(self.compress_radio.isChecked())
+        self.input_browse.setEnabled(True)
+        self.output_browse.setEnabled(True)
         self.progress_bar.setValue(100)
 
 def main():
